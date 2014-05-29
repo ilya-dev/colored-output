@@ -1,16 +1,17 @@
 {
     "name": "ilya/colored-output",
     "description": "Colored terminal output made easy with PHP.",
-    "require-dev": {
-        "phpspec/phpspec": "2.0.*"
-    },
     "license": "MIT",
+    "keywords": ["colored", "output"],
     "authors": [
         {
             "name": "Ilya S",
             "email": "public.ilya.s@gmail.com"
         }
     ],
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*"
+    },
     "autoload": {
         "psr-4": {
             "ColoredOutput\\": "source/ColoredOutput"

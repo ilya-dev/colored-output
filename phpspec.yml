@@ -1,0 +1,8 @@
+formatter.name: pretty
+
+suites:
+    colored_output_suite:
+        namespace: ColoredOutput
+        src_path: source
+        spec_path: specs
+        spec_prefix: Spec

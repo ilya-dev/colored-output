@@ -1,0 +1,17 @@
+{
+    "name": "ilya/colored-output",
+    "description": "Colored terminal output made easy with PHP.",
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya S",
+            "email": "public.ilya.s@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}

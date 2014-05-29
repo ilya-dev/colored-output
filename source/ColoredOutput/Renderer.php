@@ -24,7 +24,23 @@ class Renderer {
         'yellow'       => '',
         'light_gray'   => '',
         'white'        => '',
-    ] ;
+    ];
+
+    /**
+     * The background colors.
+     *
+     * @var array
+     */
+    protected $background = [
+        'black'      => '',
+        'red'        => '',
+        'green'      => '',
+        'yellow'     => '',
+        'blue'       => '',
+        'magenta'    => '',
+        'cyan'       => '',
+        'light_gray' => '',
+    ];
 
     /**
      * Render a message with given colors.

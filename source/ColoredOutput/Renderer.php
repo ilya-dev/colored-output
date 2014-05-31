@@ -52,7 +52,20 @@ class Renderer {
      */
     public function render($message, $foreground = null, $background = null)
     {
+        $colors   = '';
+        $template = '\033[%sm';
 
+        if ( ! is_null($foreground))
+        {
+            $colors .= sprintf($template, $this->foreground[$foreground]);
+        }
+
+        if ( ! is_null($background))
+        {
+            $colors .= sprintf($template, $this->background[$background]);
+        }
+
+        return $colors.$message.'\033[0m';
     }
 
 }

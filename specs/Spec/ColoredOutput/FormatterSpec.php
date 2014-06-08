@@ -11,6 +11,9 @@ class FormatterSpec extends ObjectBehavior {
 
     function it_formats_a_message()
     {
+        $this->format('Hello, world!')
+             ->shouldBe('Hello, world!\033[0m');
+
         $this->format('Hello, world!', 'red', 'green')
              ->shouldBe('\033[0;31m\033[42mHello, world!\033[0m');
     }
